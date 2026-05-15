@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.9067796610169492,
+  "macro_f1": 0.23777777777777778,
+  "weighted_f1": 0.8624482109227872,
+  "n_test": 118,
+  "labels_order": [
+    "nan",
+    "negatif",
+    "netral",
+    "positif"
+  ]
+}

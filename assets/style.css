@@ -1,0 +1,61 @@
+:root{
+  --bg:#F7F8FA;
+  --card:#FFFFFF;
+  --border:#E5E7EB;
+  --text:#111827;
+  --muted:#6B7280;
+  --radius:14px;
+  --shadow:0 1px 2px rgba(0,0,0,.06);
+}
+
+/* App background */
+div[data-testid="stAppViewContainer"]{ background: var(--bg); }
+div[data-testid="stHeader"]{ background: transparent; }
+section[data-testid="stSidebar"]{ background: #FFFFFF; border-right: 1px solid var(--border); }
+
+/* Hide Streamlit default UI */
+#MainMenu{visibility:hidden;}
+footer{visibility:hidden;}
+
+/* Cards */
+.card{
+  border:1px solid var(--border);
+  border-radius: var(--radius);
+  padding:16px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+.card-title{ font-weight:700; color:var(--text); }
+.card-sub{ margin-top:4px; color:var(--muted); font-size:.9rem; }
+
+/* KPI cards */
+.kpi{
+  border:1px solid var(--border);
+  border-radius: var(--radius);
+  padding:14px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+.kpi-label{ color:var(--muted); font-size:.85rem; }
+.kpi-value{ color:var(--text); font-size:1.6rem; font-weight:750; margin-top:4px; }
+
+/* Empty state */
+.empty{
+  border:1px dashed var(--border);
+  border-radius: var(--radius);
+  padding:16px;
+  background: rgba(255,255,255,.7);
+  color: var(--muted);
+}
+
+/* Inputs spacing */
+div[data-testid="stVerticalBlock"] > div:has(> div[data-testid="stFileUploader"]) {
+  padding-top: 0.25rem;
+}
+
+/* Buttons (global) */
+div.stButton > button{
+  border-radius: 12px;
+  padding: .6rem 1rem;
+  font-weight: 650;
+}

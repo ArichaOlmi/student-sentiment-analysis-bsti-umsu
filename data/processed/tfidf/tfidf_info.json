@@ -1,0 +1,30 @@
+{
+  "ngram_range": [
+    1,
+    1
+  ],
+  "min_df": 2,
+  "max_df": 0.9,
+  "max_features": 5000,
+  "test_size": 0.2,
+  "train_size": 0.8,
+  "random_state": 42,
+  "stratify_used": true,
+  "label_counts": {
+    "nan": 534,
+    "positif": 31,
+    "negatif": 13,
+    "netral": 8
+  },
+  "train_n": 468,
+  "test_n": 118,
+  "n_features": 508,
+  "X_train_shape": [
+    468,
+    508
+  ],
+  "X_test_shape": [
+    118,
+    508
+  ]
+}

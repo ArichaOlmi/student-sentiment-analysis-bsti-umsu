@@ -1,0 +1,9 @@
+{
+  "source": "upload",
+  "source_name": "dataset_long_620.csv",
+  "imported_at": "2026-04-09 20:59:16",
+  "format": "LONG",
+  "rows": 620,
+  "label_before": "620/620",
+  "label_after": "43/620"
+}
